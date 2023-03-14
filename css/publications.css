@@ -1,0 +1,13 @@
+.public_filter{
+
+    width:200px !important;
+    min-height:300px !important;
+    border:1px solid red !important;
+
+}
+.add_publication{
+    background: #FAD565;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}

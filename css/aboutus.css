@@ -1,0 +1,475 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#sec{
+    height: 100px;
+}
+@media only screen and (max-width: 1000px) {
+    #sec{
+        height: 30px;
+    }
+}
+
+.start {
+    display: flex;
+    width: 100%;
+    height: 110px;
+    justify-content: center;
+    margin: 100px 0 0;
+}
+
+.nachalo {
+    display: flex;
+    width: 25%;
+    height: 60%;
+    margin-left: 6px;
+    justify-content: space-around;
+    padding-top: 15px;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 1300px;
+    overflow: hidden;
+}
+
+.text {
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    position: absolute;
+}
+
+.text1 {
+    width: 60%;
+    top: 70px;
+    left: 213px;
+}
+
+.text2 {
+    width: 45%;
+    top: 160px;
+    left: 420px;
+}
+
+.text3 {
+    top: 300px;
+    left: 330px;
+    font-size: 20px;
+    color: #133960;
+    font-weight: bold;
+    position: absolute;
+}
+
+.text4 {
+    top: 365px;
+    left: 361px;
+    font-size: 20px;
+    position: absolute;
+    width: 58%;
+}
+
+.text5 {
+    top: 500px;
+    left: 388px;
+    font-size: 20px;
+    position: absolute;
+    width: 60%;
+}
+.text6 {
+    top: 630px;
+    left: 252px;
+    font-size: 20px;
+    position: absolute;
+    width: 58%;
+}
+
+.text7 {
+    top: 750px;
+    left: 377px;
+    font-size: 20px;
+    position: absolute;
+    width: 60%;
+}
+
+.text8 {
+    top: 854px;
+    left: 278px;
+    font-size: 20px;
+    position: absolute;
+    width: 60%;
+}
+
+.text9 {
+    top: 1012px;
+    left: 388px;
+    font-size: 20px;
+    position: absolute;
+    width: 59%;
+}
+
+.text10 {
+    top: 1142px;
+    left: 385px;
+    font-size: 20px;
+    position: absolute;
+    width: 48%;
+}
+
+.images {
+    position: absolute;
+}
+
+
+.img1 {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 52px;
+}
+
+.img2 {
+    width: 55px;
+    height: 30px;
+    top: 175px;
+    left: 300px;
+}
+
+.img3 {
+    width: 300px;
+    height: 270px;
+    left: 1039px;
+    top: 40px;
+}
+
+.img4 {
+    width: 150px;
+    height: 150px;
+    top: 271px;
+    left: 88px;
+}
+
+.img5 {
+    width: 120px;
+    height: 120px;
+    top: 206px;
+    left: 1307px;
+}
+
+.img6 {
+    width: 180px;
+    height: 180px;
+    top: 370px;
+    left: 1200px;
+}
+
+.img7 {
+    width: 150px;
+    height: 150px;
+    top: 411px;
+    left: 216px;
+}
+
+.img8 {
+    width: 150px;
+    height: 150px;
+    top: 546px;
+    left: 65px;
+}
+
+.img9 {
+    width: 120px;
+    height: 120px;
+    top: 615px;
+    left: 1025px;
+}
+
+.img10 {
+    width: 140px;
+    height: 140px;
+    top: 669px;
+    left: 1290px;
+
+}
+
+.img11 {
+    width: 200px;
+    height: 200px;
+    top: 705px;
+    left: 135px;
+}
+
+.img12 {
+    width: 150px;
+    height: 150px;
+    top: 857px;
+    left: 1143px;
+}
+
+.img13 {
+    width: 200px;
+    height: 200px;
+    top: 947px;
+    left: 173px;
+}
+
+.img14 {
+    width: 200px;
+    height: 200px;
+    top: 895px;
+    left: 1241px;
+}
+
+.img15 {
+    width: 200px;
+    height: 200px;
+    top: 1052px;
+    left: 98px;
+}
+
+.img16 {
+    width: 140px;
+    height: 70px;
+    top: 1137px;
+    left: 1120px;
+}
+
+.images img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1200px) {
+    .text {
+        font-size: 16px;
+    }
+
+    .text3 {
+        font-size: 18px;
+    }
+
+    .img3 {
+        left: 900px;
+    }
+
+    .img6 {
+        left: 1030px;
+    }
+
+    .img9 {
+        top: 610px;
+        left: 912px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .content {
+        height: 1130px;
+    }
+    
+    .text {
+        font-size: 14px;
+    }
+
+    .text1 {
+        top: 60px;
+        left: 185px;
+    }
+
+    .text2 {
+        top: 140px;
+        left: 330px;
+    }
+
+    .text3 {
+        font-size: 16px;
+        top: 287px;
+        left: 300px;
+    }
+
+    .text4 {
+        top: 340px;
+        left: 330px;
+    }
+
+    .text5 {
+        top: 450px;
+        left: 350px;
+    }
+
+    .text6 {
+        top: 560px;
+        left: 260px;
+    }
+
+    .text7 {
+        top: 650px;
+        left: 300px;
+    }
+
+    .text8 {
+        top: 730px;
+        left: 260px;
+    }
+
+    .text9 {
+        top: 870px;
+        left: 310px;
+    }
+
+    .text10 {
+        top: 960px;
+        left: 310px;
+    }
+
+    .img1 {
+        width: 200px;
+        height: 200px;
+        left: 50px;
+        top: 15px;
+    }
+
+    .img2 {
+        width: 45px;
+        height: 25px;
+        top: 145px;
+        left: 245px;
+    }
+
+    .img3 {
+        width: 200px;
+        height: 250px;
+        left: 773px;
+        top: 12px;
+    }
+
+    .img4 {
+        width: 120px;
+        height: 120px;
+        top: 270px;
+        left: 90px;
+    }
+
+    .img5 {
+        width: 100px;
+        height: 100px;
+        top: 205px;
+        left: 885px;
+    }
+
+    .img6 {
+        width: 150px;
+        height: 150px;
+        left: 880px;
+        top: 330px;
+    }
+
+    .img7 {
+        width: 120px;
+        height: 120px;
+        top: 390px;
+        left: 210px;
+    }
+
+    .img8 {
+        width: 120px;
+        height: 120px;
+        top: 495px;
+        left: 115px;
+    }
+
+    .img9 {
+        top: 545px;
+        left: 860px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .img10 {
+        width: 80px;
+        height: 80px;
+        top: 662px;
+        left: 914px;
+    }
+
+    .img11 {
+        width: 120px;
+        height: 120px;
+        top: 620px;
+        left: 170px;
+    }
+
+    .img12 {
+        width: 100px;
+        height: 100px;
+        top: 755px;
+        left: 855px;
+    }
+
+    .img13 {
+        width: 150px;
+        height: 150px;
+        top: 810px;
+        left: 150px;
+    }
+
+    .img14 {
+        width: 120px;
+        height: 120px;
+        top: 820px;
+        left: 890px;
+    }
+
+    .img15 {
+        width: 120px;
+        height: 120px;
+        top: 929px;
+        left: 154px;
+    }
+
+
+    .img16 {
+        width: 100px;
+        height: 50px;
+        top: 965px;
+        left: 830px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .content {
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .images {
+        display: none;
+    }
+
+    .text, .text3 {
+        width: 100%;
+        position: static;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    .nachalo {
+        width: 50%;
+    }
+}
+
+@media (max-width: 450px) {
+    .nachalo {
+        width: 70%;
+    }
+}

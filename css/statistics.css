@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-collection {
+    flex-direction: column;
+
+}
+
+.start {
+    display: flex;
+    width: 100%;
+    height: 110px;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.nachalo {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin-left: 6px;
+    margin-top: 40px;
+    justify-content: space-around;
+    padding-top: 15px;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.p {
+    font-weight: bold;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+    color: #133960;
+
+
+}
+
+.parent {
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+.parent-total {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.child {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.child>div {
+    width: 47%;
+    height: 60px;
+    display: flex;
+    margin: 8px;
+    font-size: 40px;
+
+
+
+}
+
+#parent-first {
+    margin: 30px auto;
+}
+
+.blue {
+    background: #153E64;
+}
+.red {
+    background: #CB203A;
+}
+.aqua {
+    background: #71A6B0;
+
+}
+.yellow {
+    background: #FAD768;
+
+}
+.green {
+    background: #71B07B;
+}
+.grey {
+    background-color:#C4C4C4;
+}
+.icon {
+    display: flex;
+    width: 35px;
+    align-items: center;
+    margin-left: 15px;
+
+}
+
+.icon img {
+    width: 80%;
+    height: 60%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.total{
+    display: flex;
+    flex-wrap: wrap;
+    width: 83%;
+    height: 100%;
+    margin-left: 15px;
+}
+
+.number{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.text{
+    display: flex;
+    width: 100%;
+    height: 48%;
+    font-family: 'BourtonBase';
+    font-size: 10px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    align-items: flex-start;
+    color: #FFFFFF;
+
+
+}
+
+@media screen and (min-width:2575px) {
+    .parent img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .start {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        margin: 10px 0;
+        justify-content: center;
+    }
+
+    .p {
+        font-weight: bold;
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+        font-size: 30px;
+        color: #133960;
+
+
+    }
+
+    .nachalo {
+        width: 40%;
+        height: 60%;
+        justify-content: space-around;
+
+    }
+
+    .parent-total {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    #parent-first {
+        margin: 50px auto;
+    }
+
+
+    .parent {
+        width: 80%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+
+    .child {
+        width: 80%;
+        height: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 30px;
+
+    }
+
+    .child>div {
+        width: 47%;
+        height: 98px;
+        display: flex;
+        margin: 15px;
+
+    }
+
+    .text {
+        font-size: 19px;
+    }
+
+    .number {
+        font-size: 35px;
+    }
+
+}
+
+.statics_diagrama {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.statistics {
+    height: 100%;
+    width: 24%;
+    float: left;
+    margin: 10px;
+}   
+
+@media(max-width: 1500px) {
+    .statistics {
+        width: 26%;
+    }   
+}
+
+@media(max-width: 1280px) {
+    .statistics {
+        width: 28%;
+    }   
+}
+
+@media screen and (max-width:1185px) {
+
+    .parent-total {
+        flex-direction: column;
+    }
+
+    .parent {
+        width: 70%;
+    }
+
+    .child {
+        width: 100%;
+    }
+
+    .child>div {
+        height: 85px;
+    }
+
+    .number {
+        font-size: 25px;
+        line-height: 60px;
+    }
+    
+    .text { 
+        font-size: 17px;
+        line-height: 55px;
+    }
+
+    .icon {
+        width: 50px;
+    }
+
+}
+
+@media(max-width: 1075px) {
+    .statistics {
+        width: 32%;
+    }   
+}
+
+@media screen and (max-width:970px) { 
+    
+    .child {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .child>div {
+        height: 100px;
+        width: 70%;
+    }
+
+    .nachalo {
+        padding-top: 20px;
+        width: 63%;
+        height: 60%;
+    }
+
+    .p {
+        font-size: 23px;
+    }
+
+    .icon {
+        width: 70px;
+    }
+
+}
+
+@media(max-width: 875px) {
+    .statics_diagrama {
+        align-items: center;
+        flex-direction: column;
+    }
+    .statistics {
+        width: 40%;
+    }   
+}
+
+@media screen and (max-width:810px) { 
+
+    .child>div {
+        height: 100px;
+        width: 100%;
+    }
+
+    .nachalo {
+        width: 90%;
+        height: 65%;
+        padding-top: 22px;
+    }
+
+    .p {
+       font-size: 20px; 
+    }
+
+}
+
+@media(max-width: 650px) {
+    
+    .statistics {
+        width: 50%;
+    }   
+}
+
+@media screen and (max-width:576px) { 
+    .nachalo {
+        width: 100%;
+    }
+
+    .child>div {
+        height: 100px;
+        width: 100%;
+    }
+
+    .parent {
+        width: 95%;
+        align-items: flex-end;
+    }
+}
+
+@media(max-width: 550px) {
+    .statistics {
+        width: 70%;
+    }   
+}
+
+@media screen and (max-width:430px) { 
+    .number {
+        font-size: 20px;
+        line-height: 60px;
+    }
+    
+    .text { 
+        font-size: 14px;
+        line-height: 55px;
+    }
+
+    .icon {
+        width: 40px;
+    }
+
+}
+
+@media(max-width: 400px) {
+    .statistics {
+        width: 90%;
+    }   
+}

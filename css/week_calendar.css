@@ -1,0 +1,671 @@
+.hide_div{
+    width: 100%;
+    height: 60px;
+}
+
+.hide_div1 {
+    width: 100%;
+    height: 120px;
+}
+
+  .calendar_width {
+    width: 80%;
+    margin: 0 auto;
+    height: 687px;
+}
+.week_days{
+    display: none;
+}
+.relese_width {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+}
+.up_foo{
+    height: 200px;
+}
+.fel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.fel > div{
+    width: 100%;
+    height: 100%;
+}
+.border {
+    border: none;
+    border-right: 0.8px solid gray;
+}
+.left {
+    width: 20%;
+    height: 100%;
+    border: 0.8px solid gray;
+    border-radius: 15px 0 0 15px;
+    float: left;
+}
+.passive, .select_calendar th {
+    color: #818181;
+}
+
+.select_calendar th, .select_calendar td {
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.mounth_year {
+    width: 75%;
+    font-weight: 600;
+    padding: 10px 15px;
+    color: #818181;
+    font-size: 16px;
+    float: left;
+}
+
+.right_icons {
+    width: 10%;
+    color: #818181;
+    float: left;
+    font-size: 22px;
+}
+
+.left_calendar {
+    width: 97%;
+    margin: 0 auto;
+}
+
+.select_calendar {
+    width: 100%;
+    height: 100%;
+}
+
+.select_calendar thead th {
+    text-align: center;
+}
+
+.select_calendar td {
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.select_calendar td:hover {
+    background-color: #133960;
+    color: white;
+}
+
+.sport_content {
+    width: 95%;
+    margin: 20px auto;
+}
+
+.sport_colors {
+    width: 95%;
+    height: 37px;
+}
+
+.sport_color {
+    width: 24px;
+    height: 24px;
+    border-radius: 25%;
+    background: red;
+    margin-left: 5px;
+}
+
+.sport_background {
+    width: 85%;
+    margin-left: 40px;
+    float: left;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+
+.right {
+    height: 100%;
+    width: 80%;
+    border: 0.8px solid gray;
+    float: left;
+    border-radius: 0 15px 15px 0;
+    border-left: none;
+}
+
+.right_header {
+    width: 100%;
+    height: 11%;
+}
+
+.data_content {
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.data, .today {
+    margin: 0 10px;
+    color: #133960;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.control {
+    color: #C4C4C4 ;
+    margin: 0 10px;
+    word-spacing: 10px;
+}
+
+.control i {
+    cursor: pointer;
+}
+
+.search_content {
+    width: 50%;
+    height: 130%;
+    float: left;
+    display: flex;
+    align-items: center;
+    padding-left:15%;
+}
+
+.search_panel {
+    display: flex;
+    margin-right: 5px;
+}
+
+.search {
+    width: 150px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #818181;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+    padding-left: 20px;
+}
+
+.search_panel button {
+    background: #E9ECEF;
+    border: 1px solid #818181;
+    box-sizing: border-box;
+    border-radius: 0px 10px 10px 0px;
+    width: 40px;
+    height: 30px;
+    outline: none;
+    border-left: none ;
+    cursor: pointer;
+}
+
+.fa-search {
+    color: #818181 ;
+}
+
+.calendar_type {
+    width: 80px;
+    height: 30px;
+    border: 1px solid #818181;
+    border-radius: 10px;
+    padding-left: 5px;
+    color: #818181 ;
+}
+
+.this_day {
+    background: #133960 !important;
+    color: #fff !important;
+}
+
+.right_calendar {
+    width: 100%;
+    
+}
+
+.calendar {
+    width: 100%;
+}
+
+.calendar_header span:nth-child(1) {
+    font-size: 18px;
+}
+
+.calendar_header th span:nth-child(2) {
+    font-size: 12px;
+    color: #818181;
+    font-weight: normal;
+}
+
+.calendar_header th {
+   text-align: center;
+}
+
+.calendar_body {
+    text-align: center;
+    height: 100%;
+}
+
+.empty {
+    border-bottom: 0.8px solid gray;
+    border-top: 0.8px solid gray;
+}
+
+.empty td {
+    padding: 10px 0;
+}
+
+.border {
+    border: none ;
+    border-right: 0.8px solid gray ;
+}
+
+.calendar_body tr:not(.empty) {
+    height: 463px;
+}
+
+.calendar_body tr:not(.empty) td {
+    vertical-align: top;
+}
+
+.week_releses {
+    margin: 5px 10px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.week_releses img {
+    width: 33px;
+    height: unset;
+    margin: 5px;
+}
+@media(min-width:2560px){
+    .up_foo{
+        height: 680px;
+    }
+    .mounth_year {
+        width: 95%;
+        margin: 0 auto;
+        font-weight: 600;
+        padding: 13px;
+        color: #818181;
+        font-size: 30px;
+    }
+    .select_calendar th, .select_calendar td {
+        font-size: 21px;
+        padding: 5px 0;
+    }
+    .left {
+        width: 20%;
+        height: 135%;
+        border: 0.8px solid gray;
+        border-radius: 15px 0 0 15px;
+        float: left;
+    }
+    .right {
+        height: 135%;
+        width: 80%;
+        border: 0.8px solid gray;
+        float: left;
+        border-radius: 0 15px 15px 0;
+        border-left: none;
+    }
+    .calendar_body tr:not(.empty) {
+        height: 740px;
+    }
+    .right_calendar {
+        width: 100%;
+        
+        height: 584px;
+        border-radius: 10px 10px 10px 0px;
+    }
+    .releses {
+        width: 202px;
+        margin: 5px auto;
+        height: 64px;
+        border-radius: 5px;
+    }
+    .sport_content {
+        width: 95%;
+        margin: 26px auto;
+    }
+    .sport_colors {
+        width: 95%;
+        height: 75px;
+    }
+    .sport_background {
+        width: 75%;
+        height: 60px;
+        margin-left: 80px;
+        float: left;
+        padding-left: 10px;
+        border-radius: 4px;
+        padding-top: 8px;
+        font-size: 25px;
+    }
+    .sport_color {
+        width: 50px;
+        height: 60px;
+        border-radius: 25%;
+        background: red;
+        margin-left: 5px;
+    }
+    .data, .today {
+        margin: 0 10px;
+        color: #133960;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    .search {
+        width: 330px;
+        height: 55px;
+        background: #FFFFFF;
+        border: 1px solid #818181;
+        box-sizing: border-box;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        outline: none;
+        padding-left: 20px;
+        font-size: 28px;
+    }
+    .search_panel button {
+        background: #E9ECEF;
+        border: 1px solid #818181;
+        box-sizing: border-box;
+        border-radius: 0px 10px 10px 0px;
+        width: 55px;
+        height: 55px;
+        outline: none;
+        border-left: none;
+        cursor: pointer;
+        font-size: 26px;
+    }
+    .calendar_type {
+        width: 100px;
+        height: 54px;
+        border: 1px solid #818181;
+        border-radius: 10px;
+        padding-left: 5px;
+        color: #818181;
+        font-size: 18px;
+    }
+    .right_header {
+        height: 13.5%;
+    }
+    .control {
+        color: #C4C4C4;
+        margin: 0 10px;
+        word-spacing: 28px;
+        font-size: 35px;
+    }
+    .calendar_header th span:nth-child(2) {
+        font-size: 24px;
+        
+    }
+    .calendar_header span:nth-child(1) {
+        font-size: 30px;
+    }
+}
+@media(max-width:1275px){
+    .up_foo{
+        height: 370px;
+    }
+    .calendar_header {
+       display: none;
+    }
+    .week_days {
+        display: block;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+    .week_releses img {
+        width: 54px;
+        height: unset;
+        margin: 4px;
+    }
+    .fel{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .fel > div {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .border {
+        border: none;
+        border-bottom: 0.8px solid gray;
+    }
+    .hide_div1 {
+        width: 100%;
+        height: 320px;
+    }
+    .select_calendar {
+        display: none;
+    }
+    .select_calendar thead th {
+        display: none;
+    }
+    .select_calendar td {
+        display: none;
+    }
+    .select_calendar td:hover {
+        display: none;
+    }
+
+    .sport_content {}
+    .sport_colors {}
+    .sport_color {}
+
+    .mounth_year{
+        display: none;
+    }
+    .left {
+        display: none;
+    }
+    .right {
+        margin-left: 0px;
+        margin-top: 180px;
+        height: 100%;
+        width: 122%;
+        border: 1px solid gray;
+        float: left;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+        border-radius:  0px 0px 20px 20px;
+        overflow: hidden;
+    }
+    .right_header {
+        width: 100%;
+        height: 14%;
+    }
+    .data_content {
+        width: 50%;
+        height: 130%;
+        float: left;
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+    }
+    .data{
+        margin-right: 0px;
+        position: relative;
+        top: -31px;
+        left: -181px;
+    }
+    .today{
+        margin-right: 0px;
+        position: relative;
+        top: 6px;
+        left: -18px;
+    }
+    .control{
+        position: relative;
+        top: 7px;
+        left: -17px;
+    }
+    .mounth{
+        font-family: 'Segoe UI', Roboto;
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #133960;
+    }
+    .search{
+        position: relative;
+
+        left: -23px;
+        top: 25px;
+    }
+    .calendar_type{
+        position: relative;
+        left: -109px;
+        top: -14px;
+    }
+    .search_panel button{
+        position: relative;
+        top: 25px;
+        left: -23px;
+    }
+    .week_releses {
+        width: 96%;
+        height: 60px;
+    }
+    .calendar_body tr:not(.empty) {
+        height: 500px;
+    }
+    .releses {
+        width: 125px;
+        margin: 5px auto;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .search_content {
+    width: 50%;
+    height: 130%;
+    float: left;
+    display: flex;
+    align-items: center;
+    padding-left:18%;
+}
+}
+@media(max-width:550px){
+    .up_foo{
+        height: 370px;
+    }
+    .search_content {
+    width: 50%;
+    height: 130%;
+    float: left;
+    display: flex;
+    align-items: center;
+    padding-left: 0%;
+    }
+     .data_content {
+        width: 50%;
+        height: 130%;
+        float: left;
+        display: flex;
+        align-items: center;
+        /*padding-left: 30px;*/
+    }
+    .fel > div {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .week_days{
+        display: block;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+    .week_releses {
+        width: 90%;
+        height: 60px;
+    }
+    .add-f {
+        display: none;
+    }
+    .add {
+        display: none;
+    }
+    .left{
+        width: 97%;
+        margin: 0 auto;
+    }
+    .right {
+        box-shadow: 0px 4px 0px rgb(0 0 0 / 25%);
+        border-radius: 15px 15px 15px 15px;
+    }
+    .f_first_inside {
+        width: 14.3%;
+        height: 113px;
+        border: 0px solid gray;
+    }
+    .releses {
+        margin-left: 0px;
+        width: 0%;
+        margin: 0px auto;
+        height: 0px;
+        border-radius: 0px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    .cube {
+        display: none;
+    }
+    .data {
+        margin-right: 5px;
+        position: relative;
+        top: -35px;
+        left: -148px;
+        font-size: 18px;
+    }
+    .today {
+        display: block;
+        position: relative;
+        left: -16px;
+        top: 27px;
+        display: flex;
+        flex-direction: row;
+    }
+    .control {
+        position: relative;
+        top: 25px;
+        left: -10px;
+    }
+    .search {
+        position: relative;
+        left: -29px;
+        top: 40px;
+        width: 76px;
+    }
+    .search_panel button {
+        position: relative;
+        top: 40px;
+        left: -29px;
+    }
+    .week_releses img {
+        width: 53px;
+        height: unset;
+        margin: 4px;
+    }
+    .calendar_header {
+        display: none;
+    }
+}
+
+

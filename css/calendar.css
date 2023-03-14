@@ -1,0 +1,10 @@
+.cal_first{
+	width: 20%;
+}
+.cal_second{
+	width: 80%;
+}
+td {
+    border-top-style: none !important;
+
+}

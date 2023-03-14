@@ -1,0 +1,564 @@
+.box_header{
+    background-color: red;
+    width: 890px;
+    height: 500px;
+    margin-left: 40px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.box_body{
+    width: 890px;
+    height: 500px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+
+.box_inside{
+    width: 170px;
+    height: 150px;
+    /* background-color: green; */
+    border: solid;
+        /* display: ; */
+ 
+}
+
+    .number_td{
+       text-align: center;
+        color: rgb(164, 156, 156);
+        cursor: default;
+        border-radius: 5px;
+
+    }
+    .number_td_pas{
+        text-align: center;
+        color: rgb(29, 28, 28);
+        cursor: default;
+        border-radius: 5px;
+    }
+
+.add-f{
+    background-color: #fff;
+}
+.add{
+    background-color: #fff;
+
+}
+.bdd{
+    color: #fff;
+}
+
+
+
+.box_inside2{
+   
+    border: solid;
+    width: 170px;
+    height: 25px;
+    
+}
+.box_inside3{
+   
+    border: solid;
+    width: 170px;
+    height: 125px;
+   
+}
+.jjj{
+    width: 190px;
+    height: 80px;
+    align-items:center;
+}
+.header_calendar{
+    margin-left: 40px;
+    margin-top: 25px;
+    width: 890px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.jjj-f {
+    width: 190px;
+    height: 80px;
+    align-items: center;
+}
+.arajin{
+   
+    width: 97%;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.erkrord{
+  
+    width: 890px;
+    height: 145px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.erord{
+   
+    width: 890px;
+    height: 145px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tr{
+    font-size: 14px; 
+    text-align: center; 
+   
+}
+.year_cal_cover{
+    cursor: pointer;
+    color: #818181;
+    margin-right: 6px;
+    background: none;
+    border: none;
+}
+
+.year_cal_cover:hover {
+    color: #133960;
+}
+
+.tr td {
+    border-radius: 5px;
+}
+
+th {
+    font-weight: unset;
+    color: #818181;
+    font-size: 12px;
+}
+.year_month_names{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.year_month_names:hover {
+    color: #133960;
+}
+
+.name_mount{
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 6px;
+}
+.name_mount1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 6px;
+}
+
+.ggg td:hover {
+    background-color: #133960;
+    color: white;
+}
+.ggg {
+    margin-left: 40px;
+    height: 66%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media(min-width:2560px){
+    
+    .arajin{
+   
+        width: 1500px;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .erkrord{
+      
+        width: 1500px;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .erord{
+       
+        width: 1500px;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .right_calendar {
+        width: 100%;
+        height: 790px;
+        border-radius: 10px 10px 10px 0px;
+    }
+    .header_calendar {
+        margin-left: 40px;
+        margin-top: 25px;
+        width: 890px;
+        height: 760px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .jjj {
+        width: 320px;
+        height: 80px;
+        align-items: center;
+    }
+    th {
+        font-weight: unset;
+        color: #818181;
+        font-size: 24px;
+    }
+    tr {
+        font-size: 25px;
+        text-align: center;
+    }
+    .right {
+        height: 160%;
+        width: 80%;
+        border: 0.8px solid gray;
+        float: left;
+        border-radius: 0 15px 15px 0;
+        border-left: none;
+    }
+    .left {
+        width: 20%;
+        height: 160%;
+        border: 0.8px solid gray;
+        border-radius: 15px 0 0 15px;
+        float: left;
+    }
+    .sport_colors {
+        width: 95%;
+        height: 105px;
+    }
+    .year_month_names{
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .ggg{
+        height: 38%;
+    }
+   
+}
+
+
+
+@media(max-width:1275px){
+    .name_mount1{
+        display: none;
+       
+    }
+    .name_mount{
+        /*display: flex;*/
+        /*justify-content: center;*/
+        display: block;
+        text-align: center;
+     }
+
+    .name_mount1 {
+        text-align: center;
+    }
+     .mounths_array{
+         font-size: 20px;
+         letter-spacing: 19px;
+     }
+     .number_td{
+         text-align: start;
+         line-height: 50px;
+         font-size: 20px;
+         color: rgb(164, 156, 156);
+     }
+     .number_td_pas{
+         text-align: center;
+         line-height: 50px;
+         font-size: 20px;
+         color: rgb(29, 28, 28);
+     }
+   
+   
+    .ggg {
+        margin: 0 40px;
+        height: 120%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .nachalo_year {
+        display: flex;
+        width: 408px;
+        height: 75px;
+        justify-content: space-around;
+        padding-top: 25px;
+        color: darkblue;
+        font-size: 20px;
+        margin-top: 3%;
+        border-radius: 12px 12px 12px 12px;
+        box-shadow: 0px 0px 10px #2a1e1e;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Secular One', sans-serif;
+        letter-spacing: 2px;
+    }
+    .arajin {
+        width: 890px;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .left {
+       
+     }
+    .right {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .mam_ggg{
+
+    }
+    .erord {
+       display: none;
+    }
+    .erkrord {
+        display: none;
+    }
+    .jjj {
+        display: none;
+    }
+
+    .year_cal_cover{
+        display: none;
+    }
+
+    
+    .jjj-f {
+        top: -53px;
+        left: 0px;
+        left: -42px;
+        position: relative;
+        width: 440px;
+        height: 346px;
+        align-items: center;
+    }
+    tr {
+        font-weight: bold;
+        font-size: 26px;
+        font-style: bold;
+        text-align: center;
+    }
+    th {
+        font-weight: unset;
+        color: #818181;
+        font-size: 20px;
+    }
+    .add{
+        width: 80%;
+        height: 95px;
+        border: 0.8px solid gray;
+        border-radius: 15px 15px 15px 15px;
+        text-align: center;
+        padding-top: 20px;
+        margin-left: 0px;
+        margin-top: 100px;
+      
+    }
+    .add-f{
+        width: 80%;
+        height: 95px;
+        border: 0.8px solid gray;
+        border-radius: 15px 15px 0px 0px;
+        text-align: center;
+        padding-top: 20px;
+        margin-left: 0px;
+        margin-top: 56px;
+    }
+    .bdd{
+        color: darkblue;
+        font-size: 24px;
+        padding-top: 5px;
+        font-family: 'Secular One', sans-serif;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    .today {
+        display: none;
+    }
+    .control {
+        position: relative;
+        top: 2px;
+        left: 106px;
+        display: flex;
+        justify-content: space-between;
+        width: 73px;
+    }
+    .data {
+        margin-right: 5px;
+        position: relative;
+        top: 2px;
+        left: -69px;
+        font-size: 18px;
+    }
+    .calendar_type {
+       display: none;
+    }
+    .search {
+        position: relative;
+        left: -49px;
+        top: 19px;
+        width: 100px;
+    }
+    .search_panel button {
+        position: relative;
+        top: 19px;
+        left: -49px;
+    }
+    
+}
+
+@media(max-width:550px){
+    .nachalo_year {
+        width: 260px !important;
+    }
+    
+    .releses {
+      display: none;
+    }
+    .left {
+        display: none;
+     }
+     .right {
+        /* margin-left: -50px;
+        margin-top: 180px; */
+        height: 64%;
+        width: 122%;
+        border: 1px solid gray;
+        float: left;
+        box-shadow: 0px 4px 0px rgb(0 0 0 / 25%);
+        border-radius: 0px 0px 15px 15px;
+        margin: 180px auto;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    
+    .erord {
+       display: none;
+    }
+    .erkrord {
+        display: none;
+    }
+    .jjj {
+        display: none;
+    }
+    .name_mount{
+       display: flex;
+       justify-content: center;
+    }
+    .mounths_array{
+        font-size: 20px;
+        letter-spacing: 19px;
+    }
+    .number_td{
+        text-align: start;
+        line-height: 50px;
+        font-size: 15px;
+        color: rgb(164, 156, 156);
+    }
+    .number_td_pas{
+        text-align: start;
+        line-height: 50px;
+        font-size: 15px;
+        color: rgb(29, 28, 28);
+    }
+    .jjj-f {
+        top: -46px;
+        left: 0px;
+        /*left: -29px;*/
+        position: relative;
+        width: 307px;
+        height: 346px;
+        align-items: center;
+    }
+    tr {
+        font-weight: bold;
+        font-size: 26px;
+        font-style: bold;
+        text-align: center;
+    }
+    th {
+        font-weight: unset;
+        color: #818181;
+        font-size: 20px;
+    }
+    .add{
+        width: 80%;
+        height: 95px;
+        border: 0.8px solid gray;
+        border-radius: 15px 15px 15px 15px;
+        text-align: center;
+        padding-top: 20px;
+        margin-left: 40px;
+        margin-top: 100px;
+     
+    }
+    .add-f{
+        width: 80%;
+        height: 95px;
+        border: 0.8px solid gray;
+        border-radius: 15px 15px 0px 0px;
+        text-align: center;
+        padding-top: 20px;
+        margin-left: 40px;
+        margin-top: 56px;
+    }
+    .bdd{
+        color: darkblue;
+        font-size: 24px;
+        padding-top: 5px;
+        font-family: 'Secular One', sans-serif;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    .today {
+        display: none;
+    }
+    .control {
+        position: relative;
+        top: 24px;
+        left: 39px;
+    }
+    .data {
+        margin-right: 5px;
+        position: relative;
+        top: 2px;
+        left: -69px;
+        font-size: 18px;
+    }
+    .calendar_type {
+       display: none;
+    }
+    .search {
+        position: relative;
+        left: -79px;
+        top: 51px;
+    }
+    .search_panel button {
+        position: relative;
+        top: 51px;
+        left: -79px;
+    }
+}
