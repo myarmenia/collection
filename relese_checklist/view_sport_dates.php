@@ -5,6 +5,7 @@ if(!empty($_POST['sport_id'])) {
     $sport_id = $_POST['sport_id'];
     $type = $_POST['type'];
 
+
     if($_POST["user_id"] != '') {
         $user_id = $_POST["user_id"];
     }else {

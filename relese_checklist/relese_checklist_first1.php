@@ -35,24 +35,7 @@
     
                     <div class="box1"><a class="single_date"href="single_release.php?date=' . $dates_row['data'] . '&sport_type=' . $sport_id . '">'.$dates_row['data'].'</a><i class="star_o i-click fa fa-star" data-id='.$dates_row['id'].'"></i></div>
     
-                    ';
-                        $k1=Array($take_dates);
-                    $k2 = ceil(count($k1)/6);
-                    $k3 = 0;
-                    $content = '';
-                
-                    for($i = 0; $i < $k2; $i++) {
-                        
-                        $content .= '<div class="card swiper-slide">';
-                        for($q = 0; $q < 6; $q++) {
-                            if($k3 < count($k1)){
-                                $content .= '<div class="image-content">' . $k1[$k3] . '</div>';
-                            }
-                            $k3++;
-                        }
-                        $content .= '</div>';
-                    }
-                
+        ';
 
     }
 
@@ -100,14 +83,8 @@
             ?>
 
             <div class="d-flex innline lock<?= $g ?>" >
-                <div class="swiper slide-container ">
-                    <div class="slide-content">
-                        
-                            <?= $content ?>
-                        
-                        <div class="swiper-button-prev swiper-navBtn"></div>
-                        <div class="swiper-button-next swiper-navBtn"></div>
-                    </div>
+                <div class="d-flex boxer ">
+                    <?= $take_dates ?>
                 </div>
             </div>
 
@@ -145,8 +122,8 @@
                 for($j = 1; $j < 8; $j++) {
             ?>
 
-            <div class="d-flex innline lock1<?= $j ?>">
-                <div class="d-flex boxer hh">
+            <div class="d-flex innline lock1<?= $j ?>" >
+                <div class="d-flex boxer ">
                     <?= $take_dates ?>
                 </div>
             </div>
@@ -162,93 +139,6 @@
     </div>
 </div>
 <script src=" https://cdn.jsdelivr.net/npm/swiper@9.1.0/swiper-bundle.min.js"></script>
-<script>
-  
-    $('.carusel_container>div').click(function(){
-        let mychild = document.querySelectorAll('.carusel_container>div')
-         for(let i = 0; i <mychild.length; i++) {
-            mychild[i].style =""
-        }
-
-             if($(window).width() <= '1275'){
-              
-            $(this).css({
-                            'height': "400px",
-                            'clip-path' : 'unset',
-                            'margin-top' : ' 0px',
-                            'padding' : '12px',
-                            'overflow-y': 'auto',
-
-            })
-                //chpoxel
-            let sport_id = $(this).attr("data-id")
-            let type = 'checklist';
-            let user_id = $(".user_id").val()
-            let a = $(this)
-            let name = $(this).attr('data-append-name')
-            console.log('====================================');
-            console.log(name);
-            console.log('====================================');
-           
-            $.post(
-                'relese_checklist/view_sport_dates.php',
-                {sport_id, type, user_id},
-                function (result) {
-                
-                    $(a).html(name)
-                    $(a).append(result)
-                }
-            )
-        }
-        if($(window).width() > '1275') {
-            $(this).css({
-                            "clip-path": 'polygon(20% 40%, 76% 40%, 100% 100%, 0% 100%)',
-                            "padding-top": '56px',
-                            "padding-left": '1px',
-                            "pointer-events": 'none'
-            })
-        }
-        if($(window).width() > '2560') {
-            $(this).css({
-                            "clip-path" : 'polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%)',
-                            "padding-top": '28px',
-                            "padding-left": '1px',
-                            "pointer-events": 'none'
-            })
-        }
-    });
-
-    let clicks = document.getElementsByClassName('click_me')
-    for(let i = 0; i < clicks.length; i++) {
-        clicks[i].addEventListener('click', f1)
-    }
-
-    function f1() {
-        for(let q =0; q < clicks.length;q++) {
-            clicks[q].addEventListener('click', f1)
-        }
-    }
-
-    // carusel js
-    let swiper = new Swiper(".slide-content", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        slidesPerGroup:1,
-        
-        navigation: {
-            prevEl: '.swiper-button-prev',
-            nextEl: '.swiper-button-next',
-
-        },
-    });
-        
-
-
-</script>
-
-
-
-
 
 </body>
 </html>
