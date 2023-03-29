@@ -16,8 +16,8 @@
     <link rel="stylesheet" type="text/css" href="css/week_calendar.css">
     <link rel="stylesheet" type="text/css" href="css/year_calendar.css">
     <link rel="stylesheet" type="text/css" href="css/mounth_calendar.css">
-    <link rel="stylesheet" type="text/css" href="css/relese_checklist_first.css?2">
-    <script src="js/relese_checklist_first.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="css/relese_checklist_first.css">
+    <link href=" https://cdn.jsdelivr.net/npm/swiper@9.1.0/swiper-bundle.min.css" rel="stylesheet">
 
 
 
@@ -29,7 +29,7 @@
 
 <section class="section1 my-5">
     <div class="relese_width">
-        <?php require "relese_checklist/relese_checklist_first.php"?>
+        <?php require "relese_checklist/relese_checklist_first1.php"?>
     </div>
     <div class="calendar_width">
         <?php require "calendar/calendar.php"?>
@@ -41,5 +41,6 @@
 </section>
 
 <?php require "footer.php"?>
+<script src="js/relese_checklist_first.js"></script>
 
 </body>

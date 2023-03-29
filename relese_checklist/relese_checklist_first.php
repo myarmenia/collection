@@ -328,7 +328,6 @@
             'relese_checklist/view_sport_dates.php',
             {sport_id, type, user_id},
             function (result) {
-                console.log(sport_id)
                 $('.lock' + sport_id + " .boxer").html(result)
             }
         )
@@ -369,9 +368,8 @@
                 console.log("Sorry, we are out of");
         }
         let user_id = $(".user_id").val()
-
+        if(user_id != '') {
             let sport_id = $(event.target).attr("data-id")
-            console.log(sport_id)
 
             let type = 'release';
             $.post(
@@ -381,7 +379,7 @@
                     $('.lock1' + sport_id + " .boxer").html(result)
                 }
             )
-
+        }
     }
     $('body').on('click',".i-click",function() {
         let date_id = $(this).attr('data-id')
