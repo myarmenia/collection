@@ -16,9 +16,8 @@
     <link rel="stylesheet" type="text/css" href="css/week_calendar.css">
     <link rel="stylesheet" type="text/css" href="css/year_calendar.css">
     <link rel="stylesheet" type="text/css" href="css/mounth_calendar.css">
-    <link rel="stylesheet" type="text/css" href="css/relese_checklist_first.css">
+    <link rel="stylesheet" type="text/css" href="css/relese_checklist_first.css?3">
     <link href=" https://cdn.jsdelivr.net/npm/swiper@9.1.0/swiper-bundle.min.css" rel="stylesheet">
-
 
 
 <body>

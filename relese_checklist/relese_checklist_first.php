@@ -31,9 +31,9 @@
     while ($dates_row = mysqli_fetch_assoc($dates_querry)) {
 
         $take_dates.='
-    
+
                     <div class="box1"><a class="single_date"href="single_release.php?date=' . $dates_row['data'] . '&sport_type=' . $sport_id . '">'.$dates_row['data'].'</a><i class="star_o i-click fa fa-star" data-id='.$dates_row['id'].'"></i></div>
-    
+
                     ';
     }
 
